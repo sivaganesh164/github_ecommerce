@@ -1,0 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/samsung-sharp-sans');
+*{
+    margin: 0px;
+    padding: 0px;box-sizing: border-box;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+body {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    background-color: black;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px  20px ;
+}
+
+.logo img {
+    width: 80px;
+    margin: 10px  30px;
+    border-radius: 100px;
+}
+
+.search-box {
+    display: flex;
+    flex: 1;
+    margin: 0px 20px;
+}
+
+.search-box input {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    border: 0px 5px 5px 0px;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: rgb(227, 133, 10);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-icons a {
+    margin-left: 15px;
+}
+
+.nav-icons img {
+    width: 30px;
+    filter:invert(50%);
+}
+
+.hero-section img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
